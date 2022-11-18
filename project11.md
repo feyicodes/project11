@@ -150,7 +150,7 @@ Now the architecture is such that the **jenkins-ansible** server can send comman
 ![image](images/img38.png)
 
 To further demonstrate the capability of ansible as a jump server in our current archtecture, I added the task of creating a directory called **test** and a file named **ansible.txt** in all other servers. 
-Firstly, I added the new task to the common.yaml file and pushed the file to git. I confirmed that the file has been built by checking the jenkins platform. Then I accessed updated common.yaml file in the newly created directory and ran the ansible-playbook command again.
+Firstly, I added the new task to the common.yaml file and pushed the file to git. I confirmed that the file has been updated in  Jenkins build artifact. Then I accessed updated common.yaml file in the newly created directory and ran the ansible-playbook command again.
 
 ![image](images/img39.png)
 
@@ -165,51 +165,3 @@ Afterwards, I tested to confirm that the directory and file has been created in 
 ![image](images/img43.png)
 
 ![image](images/img44.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-   
-
-
-
-
-
